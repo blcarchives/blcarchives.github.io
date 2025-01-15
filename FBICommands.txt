@@ -1,0 +1,25 @@
+// FBI Haxx //
+
+// Everything else is managed with commands. //
+    NOTE: You can pass 'all','others','me' in the username arg.
+
+Commands:
+    - r6 [username]             - Makes the selected player(s) character R6      
+    - re [username]             - Respawns selected player(s)
+    - jumpscare [username]      - Jumpscares selecter player(s) (eye of rah) (ABUSIVE)
+    - kfc                       - Loads kfc map (ABUSIVE)
+    - ciapanel                  - Loads the CIA panel for the selected player. (ABUSIVE)
+    - 911                       - Loads a uhm... 911 script..? (ABUSIVE)
+    - knife                     - Loads grab knife v4 on the selected player.
+    - sugma                     - Loads project sugma on the selected player. (ABUSIVE)
+    - ssp                       - Loads Secret Service Panel on the selected player. (USELESS)
+    - kick [username]           - Kicks the selected player.
+    - shutdown                  - Shuts down the server. (ABUSIVE)
+    - disco                     - Enables / disables disco mode.
+    - shedletsky [username]     - Turns someone's character into shedletsky.
+    - rc7 [username]            - Loads RC7 for a player.
+    - roexploit [username]      - Loads roexploit for a player.
+    - fbigui [username]         - Loads FBI Gui for a player.
+    - invisible [username]      - Turns the selected player invisible.
+    - explode [username]        - Explodes selected player.
+    - hdranker [username]       - Loads the HD Admin ranker on the selected player.
