@@ -14,6 +14,7 @@ local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 FBIWatemark.Name = "FBIWatemark"
 FBIWatemark.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 FBIWatemark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FBIWatermark.ResetOnSpawn = false;
 
 Spinnyspin.Name = "Spinnyspin"
 Spinnyspin.Parent = FBIWatemark
@@ -28,28 +29,6 @@ Spinnyspin.ZIndex = 999999999
 Spinnyspin.Image = "rbxassetid://18590878248"
 
 UIAspectRatioConstraint.Parent = Spinnyspin
-
-Contents.Name = "Contents"
-Contents.Parent = FBIWatemark
-Contents.AnchorPoint = Vector2.new(0.5, 0.5)
-Contents.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Contents.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Contents.BorderSizePixel = 0
-Contents.Position = UDim2.new(0.118734606, 0, 0.934293509, 0)
-Contents.Size = UDim2.new(0.0875419304, 0, 0.0806246623, 0)
-Contents.ZIndex = 999999999
-Contents.Font = Enum.Font.Unknown
-Contents.TextColor3 = Color3.fromRGB(0, 0, 0)
-Contents.TextScaled = true
-Contents.TextSize = 14.000
-Contents.TextWrapped = true
-Contents.TextYAlignment = Enum.TextYAlignment.Top
-
-UIAspectRatioConstraint_2.Parent = Contents
-UIAspectRatioConstraint_2.AspectRatio = 1.947
-
-UITextSizeConstraint.Parent = Contents
-UITextSizeConstraint.MaxTextSize = 75
 
 -- Scripts:
 
@@ -75,53 +54,6 @@ local function RCIMO_fake_script() -- Spinnyspin.SPINSPINSPINYAY
 	end)
 end
 coroutine.wrap(RCIMO_fake_script)()
-local function ZQMYG_fake_script() -- FBIWatemark.HoverFunction 
-	local script = Instance.new('LocalScript', FBIWatemark)
-
-	local Contents = script.Parent.Contents
-	local Spinny = script.Parent.Spinnyspin
-	
-	Spinny.MouseEnter:Connect(function()
-		coroutine.wrap(function()
-			for step = 0, 1, 0.1 do
-				wait()
-				Contents.TextTransparency = math.clamp(Contents.TextTransparency + step, 0, 1)
-				Contents.BackgroundTransparency = math.clamp(Contents.BackgroundTransparency + step, 0, 1)
-			end
-		end)()
-	end)
-	
-	Spinny.MouseLeave:Connect(function()
-		coroutine.wrap(function()
-			for step = 0, 1, 0.1 do
-				wait()
-				Contents.TextTransparency = math.clamp(Contents.TextTransparency - step, 0, 1)
-				Contents.BackgroundTransparency = math.clamp(Contents.BackgroundTransparency - step, 0, 1)
-			end
-		end)()
-	end)
-	
-	Contents.MouseEnter:Connect(function()
-		coroutine.wrap(function()
-			for step = 0, 1, 0.1 do
-				wait()
-				Contents.TextTransparency = math.clamp(Contents.TextTransparency + step, 0, 1)
-				Contents.BackgroundTransparency = math.clamp(Contents.BackgroundTransparency + step, 0, 1)
-			end
-		end)()
-	end)
-	
-	Contents.MouseLeave:Connect(function()
-		coroutine.wrap(function()
-			for step = 0, 1, 0.1 do
-				wait()
-				Contents.TextTransparency = math.clamp(Contents.TextTransparency - step, 0, 1)
-				Contents.BackgroundTransparency = math.clamp(Contents.BackgroundTransparency - step, 0, 1)
-			end
-		end)()
-	end)
-end
-coroutine.wrap(ZQMYG_fake_script)()
 local function KTTGWFV_fake_script() -- Contents.a 
 	local script = Instance.new('LocalScript', Contents)
 	script.Parent.RichText = true;
