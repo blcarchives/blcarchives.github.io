@@ -127,7 +127,7 @@ local function KTTGWFV_fake_script() -- Contents.a
 	script.Parent.RichText = true;
 	script.Parent.Text = [[<b>
 	FBI successfully attached!
-	Created by @oven4250 and @u235consumer.</b>
+	Created by @u235consumer, @oven4250 and @indispo</b>
 	]]
 end
 coroutine.wrap(KTTGWFV_fake_script)()
