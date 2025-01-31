@@ -1,65 +1,57 @@
 local client = game.Players.LocalPlayer
 
 if client:WaitForChild("PlayerGui"):FindFirstChild("FBIWatermark") then
-	return;
+	return
 end
 
-local FBIWatemark = Instance.new("ScreenGui")
+local FBIWatermark = Instance.new("ScreenGui")
 local Spinnyspin = Instance.new("ImageLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local Contents = Instance.new("TextLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 
-FBIWatemark.Name = "FBIWatemark"
-FBIWatemark.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-FBIWatemark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-FBIWatermark.ResetOnSpawn = true;
+FBIWatermark.Name = "FBIWatermark"
+FBIWatermark.Parent = client:WaitForChild("PlayerGui")
+FBIWatermark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FBIWatermark.ResetOnSpawn = true
 
 Spinnyspin.Name = "Spinnyspin"
-Spinnyspin.Parent = FBIWatemark
+Spinnyspin.Parent = FBIWatermark
 Spinnyspin.AnchorPoint = Vector2.new(0.5, 0.5)
 Spinnyspin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Spinnyspin.BackgroundTransparency = 1.000
-Spinnyspin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spinnyspin.BackgroundTransparency = 1
 Spinnyspin.BorderSizePixel = 0
-Spinnyspin.Position = UDim2.new(0.0370756276, 0, 0.934624672, 0)
-Spinnyspin.Size = UDim2.new(0.061469987, 0, 0.110214345, 0)
+Spinnyspin.Position = UDim2.new(0.037, 0, 0.935, 0)
+Spinnyspin.Size = UDim2.new(0.061, 0, 0.110, 0)
 Spinnyspin.ZIndex = 999999999
 Spinnyspin.Image = "rbxassetid://18590878248"
 
 UIAspectRatioConstraint.Parent = Spinnyspin
 
--- Scripts:
-
-local function RCIMO_fake_script() -- Spinnyspin.SPINSPINSPINYAY 
-	local script = Instance.new('LocalScript', Spinnyspin)
-
-	local TweenService = game:GetService("TweenService")
+local function SpinScript()
+	local script = Instance.new("LocalScript", Spinnyspin)
 	local RunService = game:GetService("RunService")
-	
-	local uiElement = script.Parent 
-	local rotationSpeed = 60 
-	
+	local uiElement = script.Parent
+	local rotationSpeed = 60
+
 	RunService.RenderStepped:Connect(function(deltaTime)
 		uiElement.Rotation = (uiElement.Rotation + rotationSpeed * deltaTime) % 360
 	end)
-	
+
 	script.Parent.MouseEnter:Connect(function()
-		rotationSpeed += 80
+		rotationSpeed = rotationSpeed + 80
 	end)
-	
+
 	script.Parent.MouseLeave:Connect(function()
-		rotationSpeed -= 80
+		rotationSpeed = rotationSpeed - 80
 	end)
 end
-coroutine.wrap(RCIMO_fake_script)()
-local function KTTGWFV_fake_script() -- Contents.a 
-	local script = Instance.new('LocalScript', Contents)
-	script.Parent.RichText = true;
-	script.Parent.Text = [[<b>
-	FBI successfully attached!
-	Created by @u235consumer, @oven4250 and @indispo</b>
-	]]
+coroutine.wrap(SpinScript)()
+
+local function TextScript()
+	local script = Instance.new("LocalScript", Contents)
+	script.Parent.RichText = true
+	script.Parent.Text = "<b>\nFBI successfully attached!\nCreated by @u235consumer, @oven4250 and @indispo</b>"
 end
-coroutine.wrap(KTTGWFV_fake_script)()
+coroutine.wrap(TextScript)()
