@@ -14,7 +14,7 @@ local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 FBIWatemark.Name = "FBIWatemark"
 FBIWatemark.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 FBIWatemark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-FBIWatermark.ResetOnSpawn = false;
+FBIWatermark.ResetOnSpawn = true;
 
 Spinnyspin.Name = "Spinnyspin"
 Spinnyspin.Parent = FBIWatemark
