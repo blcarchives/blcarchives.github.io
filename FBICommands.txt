@@ -1,4 +1,5 @@
 // FBI Haxx //
+// External developed by @u235consumer //
 
 // Everything else is managed with commands. //
     NOTE: You can pass 'all','others','me' in the username arg.
@@ -18,7 +19,6 @@ Commands:
     - disco                     - Enables / disables disco mode.
     - shedletsky    		- Turns everyone's avatars into shedletsky.
     - rc7 [username]            - Loads RC7 for a player.
-    - roexploit [username]      - Loads roexploit for a player.
     - fbigui [username]         - Loads FBI Gui for a player.
     - invisible [username]      - Turns the selected player invisible.
     - visible [username]	- Makes a player visible.
