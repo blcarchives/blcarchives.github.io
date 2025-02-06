@@ -17,12 +17,12 @@ Commands:
     - kick [username]           - Kicks the selected player.
     - shutdown                  - Shuts down the server. (ABUSIVE)
     - disco                     - Enables / disables disco mode.
-    - shedletsky			- Shedletskifies everyone.
+    - shedletsky		   - Shedletskifies everyone.
     - rc7 [username]            - Loads RC7 for a player.
     - fbigui [username]         - Loads FBI Gui for a player.
     - invisible [username]      - Turns the selected player invisible.
-    - visible [username]		- Turns selected player visible.
+    - visible [username]	   - Turns selected player visible.
     - explode [username]        - Explodes selected player.
     - hdranker [username]       - Loads the HD Admin ranker.
     - fbipanel [username]       - Loads the FBI panel.
-    - char [player] [username]		- Chars selected player.
+    - char [player] [username]	   - Chars selected player.
