@@ -17,7 +17,7 @@ Commands:
     - kick [username]           - Kicks the selected player.
     - shutdown                  - Shuts down the server. (ABUSIVE)
     - disco                     - Enables / disables disco mode.
-    - shedletsky    		- Turns everyone's avatars into shedletsky.
+    - shedletsky		- Turns everyone's avatars into shedletsky.
     - rc7 [username]            - Loads RC7 for a player.
     - fbigui [username]         - Loads FBI Gui for a player.
     - invisible [username]      - Turns the selected player invisible.
