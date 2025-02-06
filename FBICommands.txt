@@ -21,8 +21,8 @@ Commands:
     - rc7 [username]            - Loads RC7 for a player.
     - fbigui [username]         - Loads FBI Gui for a player.
     - invisible [username]      - Turns the selected player invisible.
-    - visible [username]	- Makes a player visible.
+    - visible [username]	- Turns selected player visible.
     - explode [username]        - Explodes selected player.
     - hdranker [username]       - Loads the HD Admin ranker.
     - fbipanel [username]       - Loads the FBI panel.
-    - char [plr] [username]	- Chars a player.
+    - char [player] [username]	- Chars selected player.
