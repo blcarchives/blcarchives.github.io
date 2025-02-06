@@ -24,5 +24,4 @@ Commands:
     - visible [username]	     - Turns selected player visible.
     - explode [username]        - Explodes selected player.
     - hdranker [username]       - Loads the HD Admin ranker.
-    - fbipanel [username]       - Loads the FBI panel.
     - char [player] [username]	  - Chars selected player.
