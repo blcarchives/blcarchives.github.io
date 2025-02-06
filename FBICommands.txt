@@ -19,7 +19,7 @@ Commands:
     - disco                     - Enables / disables disco mode.
     - shedletsky		     - Shedletskifies everyone.
     - rc7 [username]            - Loads RC7 for a player.
-    - fbigui [username]         - Loads FBI Gui for a player.
+    - fbipanel [username]       - Loads FBI Gui for a player.
     - invisible [username]      - Turns the selected player invisible.
     - visible [username]	     - Turns selected player visible.
     - explode [username]        - Explodes selected player.
