@@ -9,14 +9,15 @@ Commands:
     - re [username]             - Respawns selected player.
     - jumpscare [username]      - Jumpscares selecter player.
     - kfc                       - Loads kfc map.
-    - ciapanel                  - Loads the CIA panel.
+    - ciapanel [username]       - Loads the CIA panel.
     - 911                       - Loads a 9/11 script.
-    - knife                     - Loads grab knife v4.
-    - sugma                     - Loads project sugma.
-    - ssp                       - Loads Secret Service Panel.
+    - knife [username]          - Loads grab knife v4.
+    - sugma [username]          - Loads project sugma.
+    - ssp [username]            - Loads Secret Service Panel.
+    - dex [username]		- Loads Dex.
     - kick [username]           - Kicks the selected player.
-    - shutdown                  - Shuts down the server. (ABUSIVE)
-    - disco                     - Enables / disables disco mode.
+    - shutdown [reason]         - Shuts down the server. (ABUSIVE)
+    - disco [username]          - Enables / disables disco mode.
     - shedletsky		     - Shedletskifies everyone.
     - rc7 [username]            - Loads RC7 for a player.
     - invisible [username]      - Turns the selected player invisible.
@@ -24,3 +25,6 @@ Commands:
     - explode [username]        - Explodes selected player.
     - hdranker [username]       - Loads the HD Admin ranker.
     - char [player] [username]	  - Chars selected player.
+    - h [text]			- Shows a server hint.
+    - m [text]			- Shows a server message.
+    - permhint			- Same as "h", but the hint doesn't disappear.
