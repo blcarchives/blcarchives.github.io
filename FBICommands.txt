@@ -18,13 +18,13 @@ Commands:
     - kick [username]           - Kicks the selected player.
     - shutdown [reason]         - Shuts down the server. (ABUSIVE)
     - disco [username]          - Enables / disables disco mode.
-    - shedletsky		     - Shedletskifies everyone.
+    - shedletsky		- Shedletskifies everyone.
     - rc7 [username]            - Loads RC7 for a player.
     - invisible [username]      - Turns the selected player invisible.
-    - visible [username]	     - Turns selected player visible.
+    - visible [username]	- Turns selected player visible.
     - explode [username]        - Explodes selected player.
     - hdranker [username]       - Loads the HD Admin ranker.
-    - char [player] [username]	  - Chars selected player.
+    - char [player] [username]	- Chars selected player.
     - h [text]			- Shows a server hint.
     - m [text]			- Shows a server message.
     - permhint			- Same as "h", but the hint doesn't disappear.
