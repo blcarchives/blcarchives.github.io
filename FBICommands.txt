@@ -28,3 +28,4 @@ Commands:
     - h [text]			- Shows a server hint.
     - m [text]			- Shows a server message.
     - permhint			- Same as "h", but the hint doesn't disappear.
+    - gravityhammer [username]	- Loads the Gravity Hammer for selected player.
