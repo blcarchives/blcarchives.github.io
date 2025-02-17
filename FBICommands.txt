@@ -29,3 +29,8 @@ Commands:
     - m [text]			- Shows a server message.
     - permhint			- Same as "h", but the hint doesn't disappear.
     - gravityhammer [username]	- Loads the Gravity Hammer for selected player.
+    - flamethrower [username]	- Loads the flamethrower.
+    - magespells [username]	- Loads the mage spells script.
+    - classictools [username]	- Loads the classic tools script.
+    - guns [username]		- Loads a guns script.
+    - masterchief [username]	- Loads a Master Chief script.
