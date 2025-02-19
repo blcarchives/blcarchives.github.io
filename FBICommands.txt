@@ -34,3 +34,4 @@ Commands:
     - classictools [username]	- Loads the classic tools script.
     - guns [username]		- Loads a guns script.
     - masterchief [username]	- Loads a Master Chief script.
+    - playid [soundid]		- Plays a sound for the server. 
