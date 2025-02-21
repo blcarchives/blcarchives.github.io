@@ -36,3 +36,5 @@ Commands:
     - masterchief [username]	- Loads a Master Chief script.
     - playid [soundid]		- Plays a sound for the server. 
     - stopsound			- Stops the current playing sound
+    - clearlogs			- Clears the output logs.
+    - kidnap [username]		- Kidnaps a player.
