@@ -38,3 +38,13 @@ Commands:
     - stopsound			- Stops the current playing sound
     - clearlogs			- Clears the output logs.
     - kidnap [username]		- Kidnaps a player.
+    - clone [username]		- Clones a player.
+    - forcefield [username]	- Gives selected player a forcefield.
+    - unforcefield [username]	- Removes forcefield from selected player.
+    - c4 [username]		- Gives selected player a C4 remote.
+    - LOHOO [any(required)]	- Nukes the server.
+    - speedcoil [username]	- Gives selected player a speed coil.
+    - gravitycoil [username]	- Gives selected player a gravity coil.
+    - rainingtacos [any(req)]	- Enables raining tacos.
+    - stoptacos [any(req)]      - Stops raining tacos.
+    - sit [username]		- Makes the player sit.
