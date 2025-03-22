@@ -1,5 +1,5 @@
-// FBI Haxx //
-// External developed by @u235consumer //
+// Redstal //
+	External developed by @u235consumer / Jasper
 
 // Everything else is managed with commands. //
     NOTE: You can pass 'all','others','me' in the username arg.
